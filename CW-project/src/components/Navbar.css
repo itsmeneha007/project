@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color:rgb(249, 245, 245);
+    padding:5px;
+    color:black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .navbar-logo input {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  .navbar-logo ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-logo ul li {
+    list-style: none;
+  }
+  
+  .navbar-logo ul li a {
+    color:black;
+    padding:5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-logo ul li a:hover {
+    color: white;
+    background-color: rgb(70, 67, 67);
+  }
+  .navbar-2 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .navbar-2 li a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-2 li a:hover {
+    background-color:black;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .navbar p {
+    width :100%;
+    background-color: rgb(251, 249, 249);
+    padding:10px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  
+  .navbar h3 {
+    padding:15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(38, 37, 37);;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .navbar h3:hover{
+    color:black;
+    background-color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-logo {
+      flex-direction: column;
+    }
+  
+    .navbar-logo input {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .navbar-logo ul {
+      margin-top: 10px;
+    }
+  
+    .navbar-2 {
+      flex-direction: column;
+    }
+}
